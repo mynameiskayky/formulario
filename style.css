@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background:
+    linear-gradient(rgba(31, 31, 31, 0.800), rgba(31, 31, 31, 0.800)),
+    url(image/fdgg.jpg);
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-left: 36%;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #ffffff;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #afafaf;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    display: block;
+    font-size: 1em;
+    background: #b6b6b6;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #5e5e5e44;
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #d09fff50;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #313131;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
+
+.campo textarea {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.campo textarea:focus {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.campo select:focus {
+    color: black;
+}
